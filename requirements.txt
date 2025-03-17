@@ -1,0 +1,11 @@
+# Usage: pip3 install -r requirements.txt
+# There is no requirement that you use any of these packages in your submission,
+# but they will be available on the graders' machines. If you feel strongly that
+# you need a package not listed here, ask on the course Slack.
+pyjwt>=2.0.0
+bcrypt>=3.2.0
+flask-jwt-extended>=4.3.0
+flask_cors
+flask-sqlalchemy>=3.0.0
+flask-bcrypt>=1.0.0
+werkzeug>=2.0.3
