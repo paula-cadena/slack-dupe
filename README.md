@@ -50,29 +50,35 @@ Here we have a real-time messaging platform inspired by Slack, built with Flask 
 1. **Clone the repository**
 
 git clone https://github.com/paula-cadena/slack-dupe.git
+
 cd slack-dupe
 
 2. **Set up Backend**
 
 pip3 install -r requirements.txt
+
 cd server
+
 flask db upgrade
 
 3. **Set up Frontend**
 
 cd ../client
+
 npm install
 
-### Running the Aplication
+### Running the application
 
 1. **Start Backend Server**
 
 cd server
+
 flask run
 
 2. **Start Frontend**
 
 cd ../client
+
 npm start
 
 The application will be available at http://localhost:3000
